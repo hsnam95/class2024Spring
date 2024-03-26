@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Web Programming Example</title>
+    <style>
+        /* CSS section for styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+        }
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Introduction to Web Programming</h1>
+<div class="content">
+    <p>This is a simple example to demonstrate HTML, CSS, and JavaScript.</p>
+    <button class="button" onclick="showMessage()">Click Me!</button>
+    <p id="message"></p>
+</div>
+
+<script>
+    // JavaScript section for adding interactive functionality
+    function showMessage() {
+        document.getElementById('message').textContent = 'Hello, welcome to web programming!';
+    }
+</script>
+
+</body>
+</html>
